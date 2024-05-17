@@ -1,8 +1,8 @@
 #!/bin/bash
 
-name = "abhishek"
+name="abhishek"
 
-echo "my name is $name"
+echo "my name is $name "
 
 
 
