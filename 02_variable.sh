@@ -4,7 +4,7 @@ name="abhishek"
 age="24"
 college="amrutvahini"
 
-hostname= $HOSTNAME
+hostname= "$HOSTNAME"
 
 echo "my name is $name "
 echo "my age is $age"
