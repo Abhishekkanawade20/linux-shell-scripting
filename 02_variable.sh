@@ -1,5 +1,8 @@
 #!/bin/bash
 
-HOSTNAME = $(hostname)
+name = "abhishek"
 
-echo "Hostname of system $HOSTNAME"
+echo "my name is $name"
+
+
+
