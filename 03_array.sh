@@ -12,5 +12,10 @@ echo "length of array ${#myarray[*]}"
 #How to get range values of arrays
 echo "values from index 2-3 ${myarray[*]:2:3}"
 
+#How to update an array with new values
+myarray+=(new 30 40 50 50 "added new values")
+echo "all arrays values of ${myarray[*]}"
+
+
 
 
