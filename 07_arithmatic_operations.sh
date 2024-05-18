@@ -11,3 +11,5 @@ echo "multiplication is $mul"
 let add=$m+$n
 echo "addition is $add"
 
+let sub=$m-$n
+echo "substraction is $sub"
