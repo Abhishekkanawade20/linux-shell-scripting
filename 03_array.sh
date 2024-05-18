@@ -10,7 +10,7 @@ echo "values of arrays are ${myarray[*]}"       # to print all values of array
 echo "length of array ${#myarray[*]}"
 
 #How to get range values of arrays
-echo "values from index 2-3 ${myarray[*]:2:2}"
+echo "values from index 2-3 ${myarray[*]:2:3}"
 
 
 
