@@ -1,7 +1,7 @@
 #!/bin/bash
 
-myVar=("Hello how are you")
-myVarLength=${myvar}
+myvar=("Hello how are you")
+myvarlength=${#myvar}
 
-echo "my var length is $myVaLength"
+echo "my var length is $myvalength"
 
