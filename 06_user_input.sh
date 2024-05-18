@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #How to take input from user.
+#Here read command is used to take input from user.
 
 echo Enter your name:
 read name
