@@ -12,3 +12,15 @@ do
     echo "dept is : $department"
 done < /home/ec2-user/linux-shell-scripting/file.csv #(location of file)
 
+
+             #OR IF you dont required first line then use below script
+
+cat file.csv | awk 'NR!=1 {print}' | while IFS="," read id name age department     
+
+do
+    echo "id is : $id"
+    echo "name is : $name"
+    echo "age is : $age"
+    echo "dept is : $department"
+done
+
