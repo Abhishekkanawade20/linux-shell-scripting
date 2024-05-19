@@ -10,5 +10,5 @@ do
     echo "name is : $name"
     echo "age is : $age"
     echo "dept is : $department"
-done > /home/ec2-user/linux-shell-scripting/file.csv #(location of file)
+done < /home/ec2-user/linux-shell-scripting/file.csv #(location of file)
 
