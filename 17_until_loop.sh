@@ -5,7 +5,7 @@
 
 a=15
 
-until [[ $a -eq 2]]
+until [[ $a -eq 2 ]]
 do 
     echo "value of a is : $a"
     let a--
