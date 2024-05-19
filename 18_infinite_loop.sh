@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-infinite true
+while true
 do 
     echo "Hi, how are you"
 done
