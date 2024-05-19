@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-FILE= "/home/ec2-user/file1.txt"
+FILE= "sudo /home/ec2-user/file1.txt"
 
 for name in $(cat $FILE)
 do
