@@ -5,4 +5,5 @@
 while true
 do 
     echo "Hi, how are you"
+    sleep 3s                 # It will print 3 sec interbal of time
 done
