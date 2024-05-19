@@ -2,9 +2,9 @@
 
 #!/bin/bash
 
-FILE= "/home/ec2-user/file1.txt"
+FILE="/home/ec2-user/file1.txt"
 
-for name in $(sudo cat $FILE)
+for name in $(cat $FILE)
 do
     echo "user data is: $name"
 done
