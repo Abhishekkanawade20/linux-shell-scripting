@@ -1,5 +1,7 @@
 #how to define array and how to use it in your script
 
+#!/bin/bash
+
 myarray=(1 45 hello "How are you" 67)
 
 
@@ -15,6 +17,8 @@ echo "values from index 2-3 ${myarray[*]:2:3}"
 #How to update an array with new values
 myarray+=(new 30 40 50 50 "added new values")
 echo "all arrays values of ${myarray[*]}"
+
+
 
 
 
