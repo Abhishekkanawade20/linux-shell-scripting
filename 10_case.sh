@@ -7,7 +7,7 @@ echo " a option for print date"
 echo " b option for list"
 echo " c option to check current directory location"
 
-read choice              # It will take input from user
+read -p "Enter here: " choice              # It will take input from user
 
 case $choice in          # here we are defining case
     a)date;;             # command to print date
